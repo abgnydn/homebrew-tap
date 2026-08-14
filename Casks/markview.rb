@@ -1,9 +1,9 @@
 cask "markview" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.3.1"
-  sha256 arm:   "45930f3744ffc7014026276d667207c3dd2a29b948fdcc864a3a13f2d74e0390",
-         intel: "a2d1b3ae56a580d8b7f3a626e75ab18c4987cd4edc1014ef86bddcb3f3e2a99e"
+  version "0.3.2"
+  sha256 arm:   "9ed5d577b9d7dc6dc6f9e26bfdc129fa5c138438f0eb615ee88875838ab350a2",
+         intel: "ca14a3584f57be4f88d05d123fad09b53ba049c538ef2b610377479093d7d37c"
 
   url "https://github.com/abgnydn/markview/releases/download/desktop-v#{version}/MarkView_#{version}_#{arch}.dmg"
   name "MarkView"
